@@ -1,18 +1,11 @@
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/Google Drive-4285F4?style=flat&logo=Google Drive&logoColor=white"/> <img src="https://img.shields.io/badge/Google Sheets-34A853?style=flat&logo=Google Sheets&logoColor=white"/>
 
-# RPA (Robotic Process Automation)
+# RPA
 ## Outline
-다양한 OPEN API를 사용할 수 있는 공공데이터포털(https://www.data.go.kr) 에서 주유소의 요소수 재고 현황을 제공해주는 API를 사용해 SKT의 인공지능 스피커인 NUGU를 통해 요소수의 정보를 알려주는 기능입니다.
+매일마다 일별로 수백건씩 생성 및 저장되는 구글스프레드 시트에서 필요한 항목만 추출하고 자동으로 새로운 시트에 저장 및 관리할 수 있고, 일별 업무의 실적을 Jandi의 Webhook 서비스를 통해 매일 정해진 시간에 메시지를 전송해주는 기능입니다.
 ## Description
-> **Structure**
-> - User의 발화 -> NUGU -> Backend Proxy -> NUGU -> User
->
-> ![main](./png/search.png)
->
-> 1. User가 '(지명)에 요소수 파는 곳 알려줘' 라고 발화
+> 1. CNI_RPA
 > 
-> 2. NUGU에서 (지명)을 인식
+> 2. JANDI_webhook
 >
-> 3. Backend Proxy 에서 (지명)에 위치하고 있는 주유소의 정보(주소, 전화번호) 추출
->
-> 4. NUGU가 "(지명)에 있는 주유소의 전화번호는 (번호), 주소는 (주소)입니다."라는 발화 Output
+> 3. CS_RPA
